@@ -81,8 +81,8 @@ else
 	if [[ "$resposta" =~ ^[sS]$ ]];then
 		echo -e "${CIANO}${NEGRITO}[Assistente Analyx]${RESET}${RESET_FONTE}Vou iniciar a instalação da solução Analyx em sua maquina!!. ${AMARELO}${ITALICO}Espere um momento enquanto faço a instalação :)${RESET}${RESET_FONTE}"
 		sleep 2
-		git clone https://github.com/AnalyxX/java.git #executa o clone onde esta o jar
-		cd java #acessa o diretorio java
+		git clone https://github.com/AnalyxX/Java_Cli.git #executa o clone onde esta o jar
+		cd Java_Cli #acessa o diretorio java
 		cd analyx-source-gui #acessa o diretorio da api
 		sudo apt-get update #atualizar os pacotes do sistema
 		sudo apt-get install maven #instalar o Maven
